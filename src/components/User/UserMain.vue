@@ -1,7 +1,7 @@
 <template>
   <div id="user-main">
     <div class="panel panel-default">
-      <div class="panel-heading">User overview for {{$route.params.user}}</div>
+      <div class="panel-heading">User overview for {{user}}</div>
       <div class="panel-body">
         <router-view></router-view>
       </div>
@@ -11,7 +11,7 @@
 
 <script>
 export default{
-
+  props: ['user']
 }
 </script>
 

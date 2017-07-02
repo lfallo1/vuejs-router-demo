@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <h3>Home</h3>
-    <app-user v-for="user in users" :user="user" :key="user._id"></app-user>
+    <app-user v-for="user in users" :id="user._id" :key="user._id"></app-user>
   </div>
 </template>
 

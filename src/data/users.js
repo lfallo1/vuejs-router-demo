@@ -11,7 +11,7 @@ export default [
     "name": "Karla Villarreal",
     "gender": "female",
     "company": "SNIPS",
-    "email": "karlavillarreal@snips.com",
+    "email": "a@a.com",
     "phone": "+1 (955) 416-3816",
     "address": "376 Manhattan Court, Ripley, Mississippi, 6049",
     "about": "Mollit elit velit esse ullamco mollit aute reprehenderit velit mollit. Officia exercitation nulla duis officia consectetur est. Tempor velit dolor do ipsum Lorem dolor nulla sit.\r\n",
@@ -42,7 +42,8 @@ export default [
       }
     ],
     "greeting": "Hello, Karla Villarreal! You have 1 unread messages.",
-    "favoriteFruit": "apple"
+    "favoriteFruit": "apple",
+    "password":"dummy"
   },
   {
     "_id": "5957dc68df91a37165eeebc1",
@@ -87,7 +88,8 @@ export default [
       }
     ],
     "greeting": "Hello, Lilian Munoz! You have 7 unread messages.",
-    "favoriteFruit": "strawberry"
+    "favoriteFruit": "strawberry",
+    "password":"dummy"
   },
   {
     "_id": "5957dc687b514c39330dcc29",
@@ -132,7 +134,8 @@ export default [
       }
     ],
     "greeting": "Hello, Cobb Pena! You have 10 unread messages.",
-    "favoriteFruit": "apple"
+    "favoriteFruit": "apple",
+    "password":"dummy"
   },
   {
     "_id": "5957dc68ea8f752d6e2df9d5",
@@ -177,7 +180,8 @@ export default [
       }
     ],
     "greeting": "Hello, Ora Frederick! You have 8 unread messages.",
-    "favoriteFruit": "strawberry"
+    "favoriteFruit": "strawberry",
+    "password":"dummy"
   },
   {
     "_id": "5957dc68bf2f0fe3211c138f",
@@ -222,7 +226,8 @@ export default [
       }
     ],
     "greeting": "Hello, Rena Flynn! You have 7 unread messages.",
-    "favoriteFruit": "banana"
+    "favoriteFruit": "banana",
+    "password":"dummy"
   },
   {
     "_id": "5957dc680ac2745bc204c779",
@@ -267,7 +272,8 @@ export default [
       }
     ],
     "greeting": "Hello, Lois Ryan! You have 6 unread messages.",
-    "favoriteFruit": "apple"
+    "favoriteFruit": "apple",
+    "password":"dummy"
   },
   {
     "_id": "5957dc68534d09199b37b797",
@@ -312,7 +318,8 @@ export default [
       }
     ],
     "greeting": "Hello, Dollie Mccarthy! You have 8 unread messages.",
-    "favoriteFruit": "banana"
+    "favoriteFruit": "banana",
+    "password":"dummy"
   },
   {
     "_id": "5957dc68764d0c709c3adfa1",
@@ -357,7 +364,8 @@ export default [
       }
     ],
     "greeting": "Hello, Evangeline Finch! You have 8 unread messages.",
-    "favoriteFruit": "strawberry"
+    "favoriteFruit": "strawberry",
+    "password":"dummy"
   },
   {
     "_id": "5957dc689d41797248b2c06d",
@@ -402,7 +410,8 @@ export default [
       }
     ],
     "greeting": "Hello, Winters Kane! You have 3 unread messages.",
-    "favoriteFruit": "strawberry"
+    "favoriteFruit": "strawberry",
+    "password":"dummy"
   },
   {
     "_id": "5957dc68aa2a2ef4ee55472c",
@@ -447,7 +456,8 @@ export default [
       }
     ],
     "greeting": "Hello, Avila Cooke! You have 3 unread messages.",
-    "favoriteFruit": "banana"
+    "favoriteFruit": "banana",
+    "password":"dummy"
   },
   {
     "_id": "5957dc68cdd449154425fe84",
@@ -492,7 +502,8 @@ export default [
       }
     ],
     "greeting": "Hello, Carey Guy! You have 1 unread messages.",
-    "favoriteFruit": "banana"
+    "favoriteFruit": "banana",
+    "password":"dummy"
   },
   {
     "_id": "5957dc686c0e4359ff518e68",
@@ -537,7 +548,8 @@ export default [
       }
     ],
     "greeting": "Hello, Sweeney Williamson! You have 7 unread messages.",
-    "favoriteFruit": "banana"
+    "favoriteFruit": "banana",
+    "password":"dummy"
   },
   {
     "_id": "5957dc68ec876f78a657ee7e",
@@ -582,7 +594,8 @@ export default [
       }
     ],
     "greeting": "Hello, Shana Lang! You have 7 unread messages.",
-    "favoriteFruit": "apple"
+    "favoriteFruit": "apple",
+    "password":"dummy"
   },
   {
     "_id": "5957dc681524cb76188f5461",
@@ -627,7 +640,8 @@ export default [
       }
     ],
     "greeting": "Hello, Shaffer Jackson! You have 1 unread messages.",
-    "favoriteFruit": "strawberry"
+    "favoriteFruit": "strawberry",
+    "password":"dummy"
   },
   {
     "_id": "5957dc68e1b0ce8d8d5a5dac",
@@ -672,7 +686,8 @@ export default [
       }
     ],
     "greeting": "Hello, Callahan Rojas! You have 3 unread messages.",
-    "favoriteFruit": "apple"
+    "favoriteFruit": "apple",
+    "password":"dummy"
   },
   {
     "_id": "5957dc689ed9104e7c3956e8",
@@ -717,7 +732,8 @@ export default [
       }
     ],
     "greeting": "Hello, Hayes Marsh! You have 9 unread messages.",
-    "favoriteFruit": "banana"
+    "favoriteFruit": "banana",
+    "password":"dummy"
   },
   {
     "_id": "5957dc689a4a7589b1a155d0",
@@ -762,7 +778,8 @@ export default [
       }
     ],
     "greeting": "Hello, Cabrera Harper! You have 5 unread messages.",
-    "favoriteFruit": "apple"
+    "favoriteFruit": "apple",
+    "password":"dummy"
   },
   {
     "_id": "5957dc68b35656a1b5bf9ca7",
@@ -807,7 +824,8 @@ export default [
       }
     ],
     "greeting": "Hello, Allie Maynard! You have 10 unread messages.",
-    "favoriteFruit": "strawberry"
+    "favoriteFruit": "strawberry",
+    "password":"dummy"
   },
   {
     "_id": "5957dc68666c8504ca3146bf",
@@ -852,6 +870,7 @@ export default [
       }
     ],
     "greeting": "Hello, Valerie Alston! You have 8 unread messages.",
-    "favoriteFruit": "strawberry"
+    "favoriteFruit": "strawberry",
+    "password":"dummy"
   }
 ];

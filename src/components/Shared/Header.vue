@@ -20,17 +20,23 @@
           </ul>
           <app-search></app-search>
           <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <router-link :to="{path: '/user/' + user.username}" class="dropdown-toggle navbar-img" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                Account
+            <li v-if="auth._id" class="dropdown">
+              <router-link :to="{path: '/user/' + auth._id}" class="dropdown-toggle navbar-img" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                {{auth.email}}
                 <img src="http://placehold.it/150x150" class="img-circle" alt="Profile Image" />
               </router-link>
               <ul class="dropdown-menu">
-                <router-link tag="li" :to="{path: '/user/' + user.username + '/profile'}"><a>Profile</a></router-link>
-                <router-link tag="li" :to="{path: '/user/' + user.username + '/inbox'}"><a>Inbox</a></router-link>
+                <router-link tag="li" :to="{path: '/user/' + auth._id + '/profile'}"><a>Profile</a></router-link>
+                <router-link tag="li" :to="{path: '/user/' + auth._id + '/inbox'}"><a>Inbox</a></router-link>
                 <li role="separator" class="divider"></li>
-                <router-link tag="li" :to="{path: '/user/' + user.username + '/settings'}"><a>Settings</a></router-link>
+                <router-link tag="li" :to="{path: '/user/' + auth._id + '/settings'}"><a>Settings</a></router-link>
               </ul>
+            </li>
+            <li v-else>
+              <router-link to="/login" class="dropdown-toggle navbar-img">
+                Login
+                <img src="http://placehold.it/150x150" class="img-circle" alt="Profile Image" />
+              </router-link>
             </li>
           </ul>
         </div>
@@ -41,24 +47,22 @@
 <script>
 
 import Search from './Search.vue';
-import auth from '../../services/auth.js'
+import authService from '../../data/auth.js';
+import { eventBus } from '../../main.js';
 
 export default{
   data(){
     return {
-      user: {
-        username: '',
-        email: '',
-        fname: '',
-        lname: ''
-      }
+      auth: {email: '', _id: ''}
     }
+  },
+  created(){
+    eventBus.$on('updateUser', user => {
+      this.auth = authService.getUser()
+    });
   },
   components: {
     appSearch: Search
-  },
-  created(){
-    this.user = auth.getUser();
   }
 }
 </script>
